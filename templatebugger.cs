@@ -10,13 +10,13 @@ public class Template : MonoBehaviour
 {
   void Start() //What happens at the start of entering playmode
   {
-            
+         DebugMessage("start has happened");   
   }
 
 
   void Update() // What happens every frame
   {
-            
+          DebugMessage("New Frame has happened");    
   }
 
 
